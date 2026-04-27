@@ -56,7 +56,7 @@ function useDarkModeToggle() {
   const getInitial = () => {
     const stored = localStorage.getItem("dhaki-dark");
     if (stored !== null) return stored === "true";
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    return false;
   };
   const [isDark, setIsDark] = useState(() => {
     const d = getInitial();
