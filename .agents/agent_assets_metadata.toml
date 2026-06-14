@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "MRaO_WwHESjId8CAkHxzJ"
+uri = "file://VSCODE_SETUP.md"
+type = "text"
+title = "سِيغْمَا Σ — دليل الإعداد الكامل لـ VS Code"
