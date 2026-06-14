@@ -12,3 +12,9 @@ id = "j2325_FuE4PjQNE-WH3CE"
 uri = "file://sigma-vscode.tar.gz"
 type = "unspecified"
 title = "سِيغْمَا Σ — كامل المشروع (38 MB)"
+
+[[outputs]]
+id = "lia0QkrztsaweiD2bFlhS"
+uri = "file://sigma-vscode.zip"
+type = "unspecified"
+title = "سِيغْمَا Σ — كامل المشروع ZIP"
