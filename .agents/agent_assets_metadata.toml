@@ -18,3 +18,9 @@ id = "lia0QkrztsaweiD2bFlhS"
 uri = "file://sigma-vscode.zip"
 type = "unspecified"
 title = "سِيغْمَا Σ — ZIP مصحح لـ Windows"
+
+[[outputs]]
+id = "wVscSMcBH8ed21obY69wp"
+uri = "file://sigma-windows.zip"
+type = "unspecified"
+title = "سِيغْمَا Σ — مضبوط لـ Windows"
