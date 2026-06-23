@@ -7,6 +7,8 @@
 
   env = {
     NODE_ENV = "development";
+    PORT = "5173";
+    BASE_PATH = "/";
   };
 
   idx = {
@@ -22,8 +24,8 @@
       };
 
       onStart = {
-        api    = "cd artifacts/api-server && pnpm run dev";
-        web    = "cd artifacts/sheikh-dhaki && pnpm run dev";
+        api = "cd artifacts/api-server && pnpm run dev";
+        web = "cd artifacts/sheikh-dhaki && PORT=5173 pnpm run dev";
       };
     };
 
@@ -31,8 +33,23 @@
       enable = true;
       previews = {
         web = {
-          command = ["pnpm" "--filter" "@workspace/sheikh-dhaki" "run" "dev" "--" "--port" "$PORT" "--host" "0.0.0.0"];
+          command = [
+            "pnpm"
+            "--filter"
+            "@workspace/sheikh-dhaki"
+            "run"
+            "dev"
+            "--"
+            "--port"
+            "5173"
+            "--host"
+            "0.0.0.0"
+          ];
           manager = "web";
+          env = {
+            PORT = "5173";
+            BASE_PATH = "/";
+          };
         };
       };
     };
