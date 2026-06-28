@@ -24,3 +24,9 @@ id = "wVscSMcBH8ed21obY69wp"
 uri = "file://sigma-windows.zip"
 type = "unspecified"
 title = "سِيغْمَا Σ — كامل المشروع"
+
+[[outputs]]
+id = "UoQKhAca-eqNCvWz8ERXZ"
+uri = "file://project-source.zip"
+type = "unspecified"
+title = "كود المشروع كامل - project-source.zip"
