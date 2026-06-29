@@ -2,7 +2,8 @@
   channel = "stable-24.11";
 
   packages = [
-    pkgs.nodejs_22
+    pkgs.nodejs_20
+    pkgs.coreutils
   ];
 
   env = {
@@ -25,7 +26,7 @@
 
       onStart = {
         api = "cd artifacts/api-server && pnpm run dev";
-        web = "cd artifacts/sheikh-dhaki && PORT=5173 pnpm run dev";
+        web = "cd artifacts/sheikh-dhaki && pnpm run dev";
       };
     };
 
